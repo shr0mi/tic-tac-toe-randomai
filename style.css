@@ -3,26 +3,34 @@ body{
 	padding: 0px;
 }
 .center {
-  position: absolute;
-  left: 50%;
-  top: 50%;
+  
+  width: 800px;
+  height: 750px;
   padding-left: 20px;
+  padding-top: 10px;
   padding-right: 20px;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  padding-bottom: 120px;
   background: #303030;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)
 }
 
 h1 {
+  font-size: 60px;
   text-align: center;
   color: white;
 }
 td {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
 table {
   margin: 5px auto;
+
 }
 .vert {
   border-left: 3px solid white;
@@ -35,7 +43,7 @@ table {
 
 .buttons{
 	font-size: 40px;
-	padding: 35px;
+	padding: 70px;
 	margin: 10px;
 
 }
