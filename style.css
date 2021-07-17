@@ -1,0 +1,46 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: #303030;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+td {
+  width: 100px;
+  height: 100px;
+}
+table {
+  margin: 5px auto;
+}
+.vert {
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+}
+.hori {
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+}
+
+.buttons{
+	font-size: 40px;
+	padding: 35px;
+	margin: 10px;
+
+}
+
+.result{
+	font-size: 30px;
+	color: white;
+}
